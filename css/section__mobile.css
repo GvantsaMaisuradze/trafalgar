@@ -1,0 +1,36 @@
+.section__mobile{
+    width: 100%;
+    float: left;
+    padding: 100px 0;
+}
+.section__mobile-left{
+    position: relative;
+    width: 50%;
+    float: left;
+    max-width: 399px;
+}
+.section__mobile-left::after{
+    content: "";
+    position: absolute;
+    top: 145px;
+    left: 0;
+    width: 56px;
+    height: 2px;
+    background: #000000;
+    border-radius: 5px;
+
+}
+.section__mobile-title{
+max-width: 254px;
+padding-bottom: 30px;
+}
+.section__mobile-text{
+    padding-top: 20px;
+}
+.section__mobile-right{
+    width: 50%;
+    float: right;
+}
+.section__mobile-btn{
+    margin-top: 40px;
+}

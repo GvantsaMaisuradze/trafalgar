@@ -1,0 +1,69 @@
+.section__costumers{
+    width: 100%;
+    float: left;
+    padding: 100px 0 100px;
+}
+
+.section__costumers-inner{
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+    padding: 60px 100px 80px;
+    margin: 0 30px 0;
+    color: #fff;
+}
+.section__costumers-title{
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    padding-bottom: 90px;
+    color: #fff;
+    position:relative;
+}
+.section__costumers-title::after{
+    content: "";
+    position: absolute;
+    top: 79px;
+    left: 427px;
+    width: 56px;
+    height: 2px;
+    background:#fff;
+    border-radius: 3px;
+}
+.section__costumers-left{
+    display: flex;
+}
+.section__costumers-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.section__costumers-img{
+    border-radius: 50%;
+    border: 1px solid rgba(0,0,0,.07);
+    overflow: hidden;
+    width: 141px;
+    height: 141px;
+}
+.section__costumers-img img{
+    object-fit: cover;
+    width: 100%;
+}
+.section__costumers-subtitle{
+    color: #fff;
+    font-size: 22px;
+    line-height: 48px;
+}
+.section__costumers-profession{
+    font-size: 18px;
+    line-height: 48px;
+}
+.section__costumers-reviews{
+    padding:30px 0 0 33px;
+}
+.section__costumers-profession,
+.section__costumers-text{
+    margin: 0;
+    font-weight: 400;
+}
+.section__costumers-right{
+    width: 50%;
+}

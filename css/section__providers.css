@@ -1,0 +1,34 @@
+.section__providers{
+    width: 100%;
+    float: left;
+    padding-bottom: 100px;
+}
+.section__providers-left{
+    width: 50%;
+    float: left;
+}
+.section__providers-right{
+    width: 50%;
+    float: right;
+    max-width: 450px;
+    position: relative;
+}
+.section__providers-title{
+    padding-bottom: 30px;
+}
+.section__providers-right::after{
+    content: "";
+    position: absolute;
+    top: 145px;
+    left: 0;
+    width: 56px;
+    height: 2px;
+    background: #000000;
+    border-radius: 5px;
+}
+.section__providers-text{
+    padding-top: 20px;
+}
+.section-providers__link{
+    margin-top: 20px;
+}
